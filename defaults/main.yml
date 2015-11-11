@@ -1,0 +1,4 @@
+---
+avahi_package_state: present
+avahi_service_state: running
+avahi_service_enabled: true

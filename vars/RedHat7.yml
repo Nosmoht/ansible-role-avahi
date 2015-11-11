@@ -1,0 +1,5 @@
+---
+avahi_package_name: avahi
+avahi_service_names:
+- avahi-daemon.socket
+- avahi-daemon.service

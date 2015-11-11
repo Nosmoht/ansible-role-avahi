@@ -1,0 +1,7 @@
+---
+- name: Ensure service
+  service:
+    name: '{{ item }}'
+    state: '{{ avahi_service_state }}'
+    enabled: '{{ avahi_service_enabled }}'
+  with_items: avahi_service_names

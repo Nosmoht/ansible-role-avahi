@@ -1,0 +1,5 @@
+---
+- name: Ensure package
+  yum:
+    name: '{{ avahi_package_name }}'
+    state: '{{ avahi_package_state }}'

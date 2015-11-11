@@ -1,0 +1,8 @@
+---
+- include_vars: '{{ ansible_os_family }}{{ ansible_distribution_major_version }}.yml'
+
+- include: install.yml
+  tags: avahi_install
+
+- include: service.yml
+  tags: avahi_service
