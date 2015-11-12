@@ -23,6 +23,9 @@ Manage Avahi deamon on RHEL based systems
 | avahi_service_enabled | Service enabled | true |
 
 # Usage
+Some tasks of the role require root privileges. Therefore become must be used
+with either sudo or su.
+
 Example to ensure Avahi daemon is stopped and not started at boot time
 ```yaml
 ---
